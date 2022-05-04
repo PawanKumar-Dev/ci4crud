@@ -1,0 +1,34 @@
+CRITICAL - 2022-05-02 11:53:45 --> Undefined variable $homemodel
+#0 C:\xampp\htdocs\ci4\project-root\app\Controllers\Home.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\project-root\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-02 12:39:11 --> Too few arguments to function App\Controllers\Home::delete(), 0 passed in C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->delete()
+#1 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\project-root\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-02 12:41:06 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$id
+#0 C:\xampp\htdocs\ci4\project-root\app\Controllers\Home.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->delete()
+#2 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\project-root\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-02 12:42:20 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$id
+#0 C:\xampp\htdocs\ci4\project-root\app\Controllers\Home.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->delete('2')
+#2 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\project-root\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-02 12:42:24 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$id
+#0 C:\xampp\htdocs\ci4\project-root\app\Controllers\Home.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->delete('2')
+#2 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ci4\project-root\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\project-root\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
